@@ -1,0 +1,108 @@
+2021-01-22 15:22:31:   <-- GET /api/menbers/list
+2021-01-22 15:22:31: 
+2021-01-22 15:22:31:         select * from menbers where 1=1
+2021-01-22 15:22:31:     and state = 1
+2021-01-22 15:22:31: GET /api/menbers/list - 9ms
+2021-01-22 15:22:31:   --> GET /api/menbers/list 200 19ms 688b
+2021-01-22 15:22:31:   <-- GET /api/menbers/managerList
+2021-01-22 15:22:31: GET /api/menbers/managerList - 1ms
+2021-01-22 15:22:31:   --> GET /api/menbers/managerList 200 3ms 339b
+2021-01-22 15:37:31:   <-- GET /api/menbers/list
+2021-01-22 15:37:31: 
+2021-01-22 15:37:31:         select * from menbers where 1=1
+2021-01-22 15:37:31:     and state = 1
+2021-01-22 15:37:31: GET /api/menbers/list - 2ms
+2021-01-22 15:37:31:   --> GET /api/menbers/list 200 4ms 688b
+2021-01-22 15:37:31:   <-- GET /api/menbers/managerList
+2021-01-22 15:37:31: GET /api/menbers/managerList - 2ms
+2021-01-22 15:37:31:   --> GET /api/menbers/managerList 200 4ms 339b
+2021-01-25 11:19:52:   <-- GET /api/menbers/list
+2021-01-25 11:19:52: GET /api/menbers/list - 6ms
+2021-01-25 11:19:52:   --> GET /api/menbers/list 200 16ms 34b
+2021-01-25 11:19:52:   <-- GET /api/menbers/managerList
+2021-01-25 11:19:52: GET /api/menbers/managerList - 1ms
+2021-01-25 11:19:52:   --> GET /api/menbers/managerList 200 2ms 34b
+2021-01-25 11:19:57:   <-- POST /api/user/login
+2021-01-25 11:19:57: 
+2021-01-25 11:19:57:         select * from manageusers where username='wan' and password='123'
+2021-01-25 11:19:57:     
+2021-01-25 11:19:58: POST /api/user/login - 78ms
+2021-01-25 11:19:58:   --> POST /api/user/login 200 80ms 37b
+2021-01-25 11:21:47:   <-- POST /api/user/login
+2021-01-25 11:21:47: 
+2021-01-25 11:21:47:         select * from manageusers where username='wandayun' and password='123'
+2021-01-25 11:21:47:     
+2021-01-25 11:21:47: POST /api/user/login - 30ms
+2021-01-25 11:21:47:   --> POST /api/user/login 200 32ms 11b
+2021-01-25 11:21:47:   <-- GET /api/menbers/list
+2021-01-25 11:21:47: 
+2021-01-25 11:21:47:         select * from menbers where 1=1
+2021-01-25 11:21:47:     and state = 1
+2021-01-25 11:21:47: GET /api/menbers/list - 5ms
+2021-01-25 11:21:47:   --> GET /api/menbers/list 200 6ms 688b
+2021-01-25 11:21:47:   <-- GET /api/menbers/managerList
+2021-01-25 11:21:47: GET /api/menbers/managerList - 1ms
+2021-01-25 11:21:47:   --> GET /api/menbers/managerList 200 2ms 339b
+2021-01-25 11:35:20:   <-- GET /api/menbers/list
+2021-01-25 11:35:20: 
+2021-01-25 11:35:20:         select * from menbers where 1=1
+2021-01-25 11:35:20:     and state = 1
+2021-01-25 11:35:20: GET /api/menbers/list - 5ms
+2021-01-25 11:35:20:   --> GET /api/menbers/list 200 8ms 688b
+2021-01-25 11:35:20:   <-- GET /api/menbers/borrowList
+2021-01-25 11:35:20: GET /api/menbers/borrowList - 48ms
+2021-01-25 11:35:20:   --> GET /api/menbers/borrowList 200 50ms 1.37kb
+2021-01-25 11:35:21:   <-- GET /api/menbers/managerList
+2021-01-25 11:35:21: GET /api/menbers/managerList - 2ms
+2021-01-25 11:35:21:   --> GET /api/menbers/managerList 200 3ms 339b
+2021-01-25 11:35:24:   <-- GET /api/menbers/list
+2021-01-25 11:35:24: 
+2021-01-25 11:35:24:         select * from menbers where 1=1
+2021-01-25 11:35:24:     and state = 1
+2021-01-25 11:35:24: GET /api/menbers/list - 2ms
+2021-01-25 11:35:24:   --> GET /api/menbers/list 200 5ms 688b
+2021-01-25 11:35:24:   <-- GET /api/menbers/managerList
+2021-01-25 11:35:24: GET /api/menbers/managerList - 1ms
+2021-01-25 11:35:24:   --> GET /api/menbers/managerList 200 2ms 339b
+2021-01-25 11:39:25:   <-- GET /api/menbers/list
+2021-01-25 11:39:26: 
+2021-01-25 11:39:26:         select * from menbers where 1=1
+2021-01-25 11:39:26:     and state = 1
+2021-01-25 11:39:26: GET /api/menbers/list - 9ms
+2021-01-25 11:39:26:   --> GET /api/menbers/list 200 12ms 688b
+2021-01-25 11:39:26:   <-- GET /api/menbers/borrowList
+2021-01-25 11:39:26: GET /api/menbers/borrowList - 4ms
+2021-01-25 11:39:26:   --> GET /api/menbers/borrowList 200 7ms 1.37kb
+2021-01-25 11:39:26:   <-- GET /api/menbers/managerList
+2021-01-25 11:39:26: GET /api/menbers/managerList - 3ms
+2021-01-25 11:39:26:   --> GET /api/menbers/managerList 200 4ms 339b
+2021-01-25 11:39:28:   <-- GET /api/menbers/list
+2021-01-25 11:39:28: 
+2021-01-25 11:39:28:         select * from menbers where 1=1
+2021-01-25 11:39:28:     and state = 1
+2021-01-25 11:39:28: GET /api/menbers/list - 2ms
+2021-01-25 11:39:28:   --> GET /api/menbers/list 200 4ms 688b
+2021-01-25 11:39:28:   <-- GET /api/menbers/managerList
+2021-01-25 11:39:28: GET /api/menbers/managerList - 1ms
+2021-01-25 11:39:28:   --> GET /api/menbers/managerList 200 2ms 339b
+2021-01-25 11:39:29:   <-- GET /api/menbers/list
+2021-01-25 11:39:29: 
+2021-01-25 11:39:29:         select * from menbers where 1=1
+2021-01-25 11:39:29:     and state = 1
+2021-01-25 11:39:29: GET /api/menbers/list - 1ms
+2021-01-25 11:39:29:   --> GET /api/menbers/list 200 3ms 688b
+2021-01-25 11:39:29:   <-- GET /api/menbers/borrowList
+2021-01-25 11:39:29: GET /api/menbers/borrowList - 1ms
+2021-01-25 11:39:29:   --> GET /api/menbers/borrowList 200 3ms 1.37kb
+2021-01-25 11:39:32:   <-- GET /api/menbers/managerList
+2021-01-25 11:39:32: GET /api/menbers/managerList - 2ms
+2021-01-25 11:39:32:   --> GET /api/menbers/managerList 200 8ms 339b
+2021-01-25 11:39:42:   <-- GET /api/menbers/list
+2021-01-25 11:39:42: 
+2021-01-25 11:39:42:         select * from menbers where 1=1
+2021-01-25 11:39:42:     and state = 1
+2021-01-25 11:39:42: GET /api/menbers/list - 2ms
+2021-01-25 11:39:42:   --> GET /api/menbers/list 200 4ms 688b
+2021-01-25 11:39:42:   <-- GET /api/menbers/managerList
+2021-01-25 11:39:42: GET /api/menbers/managerList - 1ms
+2021-01-25 11:39:42:   --> GET /api/menbers/managerList 200 2ms 339b
