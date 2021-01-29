@@ -13,10 +13,21 @@ router.post('/login',async function(ctx, next) {
     ctx.session.managerid = data.id
     ctx.session.username = data.username
     ctx.session.realname = data.realname
+    ctx.session.power = data.power
     ctx.body = new SuccessModel()
       return
   }
   ctx.body = new ErrorModel('denglushibai')
+
+});
+
+router.get('/power',async function(ctx, next) {
+  const session = ctx.session
+  
+  ctx.body = {
+    errno:0,
+    power:session.power,
+  }
 
 });
 
