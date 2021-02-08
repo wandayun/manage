@@ -1,4 +1,7 @@
 const router = require('koa-router')()
+const xlsx = require('node-xlsx');
+const path =require('path')
+
 const {menberList,borrow,borrowList,salary,managerList,managerChange,menberDel,wagespaid,wagespayable,add} = require('../controller/menbers')
 const {SuccessModel,ErrorModel} = require('../model/resModel')
 const loginCheck = require('../middleware/loginCheck')
@@ -97,4 +100,13 @@ router.get('/borrow',loginCheck,async function(ctx, next) {
     ctx.body = new SuccessModel(data)
   
   });
+  
+  router.post('/importExcel',async function(ctx, next) {
+    let fileName = path.resolve(__dirname,'../excels/test.xlsx')
+    let obj = xlsx.parse(fileName);
+    console.log(ctx,ctx.request.body);
+    ctx.body = new SuccessModel(ctx)  
+    
+  
+  }); 
   module.exports = router;
